@@ -1,0 +1,245 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+body{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header_background {
+    background: url(../img/header_bg.png) center / cover no-repeat;
+    background-attachment: fixed;
+    height: 768px;
+} 
+.header_start {
+    color: #ffffff;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    /* height: 50px; */
+}
+
+.header_ad {
+    margin-top: 196px;
+}
+
+.header_logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 47px;
+}
+
+.header_nav {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header_nav p {
+    font-size: 24px;
+    padding-top: 47px;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: #ffffff;
+    height: 50px;
+    background: #68bf3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 22px;
+    width: 200px;
+    margin-top: 34px;
+
+}
+.header_ad h2{
+    font-size: 20px;
+    
+}
+.header_ad h1{
+    font-size: 72px;
+    margin-top: 30px;
+}
+.header_ad h3{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: normal;
+}
+.header_ad a{
+    text-decoration: none;
+    color: #ffffff;
+    height: 50px;
+    background: linear-gradient(to bottom, #69ce17,#408c03);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 22px;
+    width: 200px;
+    margin-top: 30px;
+}
+.header_content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_content h1{
+    font-size: 36px;
+    color: #68bf3b;
+    margin-top: 50px;
+}
+.header_content p{
+    color: #bdbdbd;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: normal;
+    margin-top: 50px;
+}
+.signature{
+    display: flex;
+    justify-content: start;
+}
+.signature h3{
+    margin-top: 74px;
+    color: #bdbdbd;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header_info{
+    margin-left: 35px;
+}
+.signature img{
+    margin-left: 60px;
+}
+
+
+/* ========================================================================================================================================================== */
+
+main{
+    margin-top: 85px;
+}
+.main_block h1{
+    text-align-last: left;
+    font-size: 36px;
+    color: rgba(104, 205, 22, 0.3);
+}
+.main_content{
+    margin-top: 50px;
+}
+.main_item{
+    display: flex;
+    height: 250px; 
+    margin-bottom: 50px;   
+}
+.main_img{
+    background: url(../img/pizza\ main.png) center / cover no-repeat;
+    height: 250px;
+    width: 350px;
+}
+.main_img span{
+    color: #ffffff;
+    font-size: 18px;
+    background: #68cd16;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.main_recipe{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.main_recipe h2{
+    color: #a6a6a6;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.main_recipe p{
+    color: #a6a6a6;
+    line-height: 24px;
+    font-size: 14px;
+}
+.main_info{
+    width: 727px;
+    display: flex;
+    justify-content: space-between;
+}
+.main_order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_order h2{
+    font-size: 30px;
+    color: #a6a6a6;
+    
+}
+.main_order span{
+    font-size: 18px;
+    font-weight: 100;
+}
+.main_order a{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #69ce17,#408c03);
+    border-radius: 22px;
+    text-decoration: none;
+}
+.main_face{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    
+}
+.main_clients img{
+    margin-bottom: 30px;
+}
+.main_clients h3{
+    color: #a6a6a6;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.main_clients p{
+    color: #a6a6a6;
+    font-size: 14px;
+    line-height: 24px;}
+/* ===================================================================================================== */
+footer{
+    margin-top: 100px;
+    background: #060503;
+    height: 100%;
+    max-height: 300px;
+    color: #ffffff;
+}
+.footer_text{
+    margin-top: 67px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
